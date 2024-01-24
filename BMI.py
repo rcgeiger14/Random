@@ -4,7 +4,7 @@ from colorama import Fore as fg
 
 x=input("What is your name: ")
 print("Hello"+" "+x)
-y=int(input(x+[i] " , What is your weight (lb): " [i/]))
+y=int(input(x+[i] " , What is your weight (lb): " [i/])
 z=int(input(x+" , What about your height (in): "))
 b=y*703/(z**2);
 if b<18.5:
@@ -17,3 +17,5 @@ else:
     print(fg.Red+"Your BMI is:"+str(b)+". "+x+" you are super fat...")
 dic={
     x:b}
+
+#This Script is so lame
